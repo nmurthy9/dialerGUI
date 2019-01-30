@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<title>Your Page Title</title>
+		<link rel="stylesheet" href="phone.css">
+	</head>
+	<body>
+		<div id="tabBar">
+			<button id="dialer">Dialer</button>
+			<button id="contactList">Contact List</button>
+			<button id="addContact">Add Contact</button>
+		</div>
+		<div id="content">
+			<div id="dialerContent">
+				<title>Dialer</title>
+				<div>
+					<button id="1">1</button>
+					<button id="2">2</button>
+					<button id="3">3</button>
+				</div>
+				<div>
+					<button id="4">4</button>
+					<button id="5">5</button>
+					<button id="6">6</button>
+				</div>
+				<div>
+					<button id="7">7</button>
+					<button id="8">8</button>
+					<button id="9">9</button>
+				</div>
+				<div>
+					<button id="*">*</button>
+					<button id="0">0</button>
+					<button id="#">#</button>
+				</div>
+				<div>
+					<button id="dial">Dial</button>
+					<button id="dialerClear">Clear</button>
+				</div>
+				
+			</div>
+			<div id="listContent">
+				<title>Contact List</title>
+				<ol>
+					<li>Nischay Murthy</li>
+					<li>John Doe</li>
+					<li>Kevin Mcguire</li>
+					<li>Luka Huff</li>
+					<li>Davian Landry</li>
+				</ol>
+				
+			</div>
+			<div id="addContent">
+				<form>
+  					<label for="name">Name</label>
+  					<input id="name" placeholder="John Doe">
+				</form>
+				<form>
+  					<label for="phoneNumber">Phone Number</label>
+  					<input id="phoneNumber" placeholder="(xxx)xxx-xxxx">
+				</form>
+				<form>
+  					<label for="email">Email Address</label>
+  					<input id="email" placeholder="john.doe@gmail.com">
+				</form>
+				<button id="createContact">Create Contact</button>
+				<button id="addClear">Clear</button>
+				
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="phone.js"></script>
+	</body>
+</html>
